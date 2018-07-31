@@ -5,7 +5,7 @@ const publicPath = path.join(__dirname, '../public');
 const port = process.env.PORT || 3000;
 
 let app = express();
-// test
+// te
 app.use(express.static(publicPath));
 
 app.listen(port,()=>{
